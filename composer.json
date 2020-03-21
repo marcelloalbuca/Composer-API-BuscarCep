@@ -1,0 +1,23 @@
+{
+    "name": "marcello/composer",
+    "description": "Buscar cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcello Albuquerque",
+            "email": "marcello.albuca@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "\\composer\\":"src/"
+        }
+    }
+}
