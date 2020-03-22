@@ -1,10 +1,10 @@
 <?php
 
 require_once "vendor/autoload.php";
+require_once "../composer/src/Search.php";
+use composer\Search;
 
-use composer\Search as ComposerSearch;
-
-$busca = new ComposerSearch;
+$busca = new Search;
 
 $resultado = $busca->getAddressFromZipcode('01001000');
 
