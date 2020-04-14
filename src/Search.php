@@ -2,7 +2,7 @@
 
 namespace composer;
 
-include('ws/ViaCep.php');
+require_once "ws/ViaCep.php";
 
 use composer\ws\ViaCep;
 
