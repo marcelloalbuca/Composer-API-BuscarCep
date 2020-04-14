@@ -2,8 +2,6 @@
 
 namespace composer;
 
-require_once "ws/ViaCep.php";
-
 use composer\ws\ViaCep;
 
 class Search

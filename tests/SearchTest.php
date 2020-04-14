@@ -1,7 +1,5 @@
 <?php declare (strict_types=1);
 
-
-require_once "../composer/src/Search.php";
 use composer\Search;
 use PHPUnit\Framework\TestCase;
 
